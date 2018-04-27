@@ -1,0 +1,150 @@
+@media only screen and (min-width: 1200px) {
+
+     .nav_bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        align-content: center;
+    }
+     
+
+     .ul_nav {    
+        list-style: none;
+        /* margin: 10px; */
+        width: 50%; 
+        padding: 10px;  
+        /* background-color: yellow;   */
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-around; 
+        align-items: center; 
+    }
+    
+    .li_nav {
+        font-size: 14px;
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+
+    .cake_flex {
+        display: none; 
+    }
+    
+    .logo_flex {
+        display: flex; 
+        justify-content: center; 
+    }
+
+    .nav_logo {
+        font-family: 'Libre Baskerville', serif;
+        font-style: italic;
+        font-size: 78pt; 
+        text-decoration: none; 
+        color: #43a2ad; 
+        padding: 2px 2px;
+        display: flex; 
+        justify-content: center;
+        /* align-items: flex-start;   */
+        /* background-color: #F4DBE4;   */  
+    }
+
+    .secret_cake {
+        display: flex; 
+        justify-content: center; 
+        width: 80px; 
+        height: 80px; 
+        padding: 30px; 
+    }
+
+    .posing_flex {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: flex-end; 
+        align-items: flex-end;  
+        
+    }
+
+    .posing {
+        display: flex; 
+        justify-content: flex-end; 
+        align-items: flex-end; 
+        width: 100%; 
+    }
+
+
+    .girl_flex {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+    }
+    
+    .girl {
+        width: 500px; 
+        height: 500px; 
+        /* padding: 20px;  */
+        border: solid 1px #EFEFEF;
+    }
+
+
+    .hidden_quote {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+        border-left: 4px solid #E4B9C3; 
+        padding: 10px; 
+        font-style: italic; 
+        font-size: 30px; 
+        /* margin: 4px; */
+        
+    }
+    
+   .hidden_review {
+       display: none; 
+        /* font-family: 'Libre Baskerville', serif;
+        font-size: 12px; 
+        color: grey; */
+    } 
+
+    .band_flex {
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+    }
+    
+    .band_pic {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: center; 
+        padding: 40px; 
+    }
+
+   .forget_it {
+         display: none; 
+         /*flex;
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: flex-end; 
+        padding-right: 40px;  */
+    } 
+    
+    h1 {
+      display: none; 
+    }
+
+    .steven {
+        display: none; 
+        
+        }
+        
+    .review {
+            display: none;     
+         }
+
+
+
+}
