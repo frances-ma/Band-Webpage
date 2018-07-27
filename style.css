@@ -16,8 +16,7 @@ body {
 .cake {
     width: 200px; 
     height: 200px; 
-    text-align: center; 
-    /* background-color: red;  */
+    text-align: center;
 }
 
 
@@ -50,15 +49,13 @@ body {
 
 .ul_nav {    
     list-style: none;
-    /* margin: 10px; */
+    margin: 10px;
     width: 100%; 
     padding: 10px;  
-    /* background-color: yellow;   */
     display: flex; 
     flex-direction: row; 
-    justify-content: center;
     align-items: center; 
-    
+    justify-content: space-around;   
 }
 
 a { 
